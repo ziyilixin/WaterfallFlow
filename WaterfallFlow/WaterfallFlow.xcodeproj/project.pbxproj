@@ -20,6 +20,7 @@
 		04346B2D26088664004BBADF /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 04346B2C26088664004BBADF /* Shop.m */; };
 		04346B3326088954004BBADF /* ShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04346B3226088954004BBADF /* ShopCell.m */; };
 		04346B4C26089104004BBADF /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04346B4B26089104004BBADF /* 1.plist */; };
+		04346B5126089E3E004BBADF /* Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 04346B5026089E3E004BBADF /* Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png */; };
 		121B595B442EE931846D2E33 /* libPods-WaterfallFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7662D248352148135BD5DAC /* libPods-WaterfallFlow.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		04346B3126088954004BBADF /* ShopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCell.h; sourceTree = "<group>"; };
 		04346B3226088954004BBADF /* ShopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCell.m; sourceTree = "<group>"; };
 		04346B4B26089104004BBADF /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		04346B5026089E3E004BBADF /* Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png"; sourceTree = "<group>"; };
 		6889321A78395AC17DA7AC95 /* Pods-WaterfallFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallFlow.debug.xcconfig"; path = "Target Support Files/Pods-WaterfallFlow/Pods-WaterfallFlow.debug.xcconfig"; sourceTree = "<group>"; };
 		B7662D248352148135BD5DAC /* libPods-WaterfallFlow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallFlow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 		04346AEC260875AD004BBADF /* WaterfallFlow */ = {
 			isa = PBXGroup;
 			children = (
+				04346B552608A152004BBADF /* picture */,
 				04346AED260875AD004BBADF /* AppDelegate.h */,
 				04346AEE260875AD004BBADF /* AppDelegate.m */,
 				04346B252608761B004BBADF /* WaterFlowLayout.h */,
@@ -160,6 +163,14 @@
 				04346B16260875AE004BBADF /* Info.plist */,
 			);
 			path = WaterfallFlowUITests;
+			sourceTree = "<group>";
+		};
+		04346B552608A152004BBADF /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				04346B5026089E3E004BBADF /* Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png */,
+			);
+			path = picture;
 			sourceTree = "<group>";
 		};
 		98A72B624D0D8E5241B0A69B /* Pods */ = {
@@ -285,6 +296,7 @@
 			files = (
 				04346AFD260875AE004BBADF /* LaunchScreen.storyboard in Resources */,
 				04346AFA260875AE004BBADF /* Assets.xcassets in Resources */,
+				04346B5126089E3E004BBADF /* Simulator Screen Shot - iPhone 12 mini - 2021-03-22 at 17.42.46.png in Resources */,
 				04346B4C26089104004BBADF /* 1.plist in Resources */,
 				04346AF8260875AD004BBADF /* Main.storyboard in Resources */,
 			);
