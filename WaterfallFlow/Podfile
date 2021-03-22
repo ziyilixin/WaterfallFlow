@@ -1,0 +1,9 @@
+platform :'ios', '12.0'
+# ignore all warnings from all pods
+inhibit_all_warnings!
+target 'WaterfallFlow' do
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'Masonry'
+end
